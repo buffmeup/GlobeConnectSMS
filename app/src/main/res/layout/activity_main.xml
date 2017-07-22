@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="495dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button
+            android:onClick="askHelp"
+            android:id="@+id/askHelp"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="Ask for Help"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:text="JSON:"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/textView" />
+    </RelativeLayout>
+
+
